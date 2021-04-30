@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "Factotum"
+version = "0.1.0"
+description = "Resource management software"
+authors = ["Radosław Ganczarek <radoslaw@ganczarek.in>"]
+license = "BSD"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

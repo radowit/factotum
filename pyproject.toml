@@ -1,3 +1,6 @@
+[tool.poetry.scripts]
+django = 'factotum.config.django.manage:main'
+
 [tool.poetry]
 name = "Factotum"
 version = "0.1.0"
@@ -7,6 +10,7 @@ license = "BSD"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+Django = "^3.2"
 
 [tool.poetry.dev-dependencies]
 
